@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+header, main {
+  width: 98%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PQP {
+  width: 90%;
+  margin: 0.1em;
+  padding: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.probioticos {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logoprobi {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.probi {
+  width: 97%;
+  margin: 0.1em;
+  padding: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 100%;
+  border-bottom: 0.1em solid #65669f;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+h2 {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 100%;
+  border-top: 0.1em solid #65669f;
+  overflow: hidden;
+}
+article {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section.uno {
+  border-top: 0.1em solid #65669f;
+}
+.probioticos p {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: math;
+  font-size: 100%;
+  overflow: hidden;
+}
+ul {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+}
+li {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  list-style: inside;
+  font-size: 100%;
+  overflow: hidden;
+}
+.probioticos a {
+  font-style: italic; 
+  font-weight: bold;
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.1em;
+  font-size: 100%;
+  text-decoration: none;
+}
+footer {
+  width: 98%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.1em solid rgba(128, 128, 128, 0.5);
+}
+footer cite {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  font-family: monospace;
+  border: 0.2em solid rgba(0, 0, 0, 0.3);
+  color: black;
+  background-color: #e5e5e573;
+  flex-direction: column;
+  overflow: hidden;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, -0.9), rgba(0, 0, 0, -0.9)), url(./IMAGENES/fondo.areas.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  h1 {
+    font-size: 120%;
+    justify-content: center;
+  }
+  h2 {
+    font-size: 120%;
+  }
+  .probioticos p {
+    font-size: 105%;
+  }
+  li {
+    font-size: 105%;
+  }
+  .probioticos a {
+    font-size: 105%;
+  }
+  footer {
+    flex-direction: row;
+  }
+  footer cite {
+    flex-direction: row;
+    font-size: 1em;
+  }
+  }
+
+
+
+@media screen and (min-width: 769px) {
+  .PQP {
+    width: 82%;
+  }
+  h1 {
+    font-size: 160%;
+    justify-content: center;
+  }
+  h2 {
+    font-size: 140%;
+  }
+  .probioticos p {
+    font-size: 120%;
+  }
+  li {
+    font-size: 115%;
+  }
+  .probioticos a {
+    font-size: 110%;
+  }
+  footer {
+    flex-direction: row;
+  }
+  footer cite {
+    flex-direction: row;
+    font-size: 1.2em;
+  }
+}
